@@ -1,0 +1,8 @@
+{
+  "short_name": "Algo Wager",
+  "name": "Algo Wager",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

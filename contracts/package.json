@@ -1,0 +1,17 @@
+{
+  "name": "algo-wager",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  },
+  "scripts": {
+    "algob": "algob"
+  },
+  "dependencies": {
+    "@algo-builder/algob": "^3.2.0",
+    "@algo-builder/web": "^5.0.1",
+    "algosdk": "^1.19.1"
+  }
+}

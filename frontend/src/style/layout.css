@@ -1,0 +1,44 @@
+.flexBox_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row {
+    display: flex;
+}
+
+.flexBox_center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flexBox_space {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_container {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.flexBox_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexBox_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexBox_row_center {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,86 @@
+.about {
+  height: 100vh;
+  position: relative;
+  color: var(--yellow);
+  margin-inline: 1rem;
+}
+
+.about_btn_left {
+  font-size: 1.8rem !important;
+  background-color: var(--dark-yellow) !important;
+  width: 11vw;
+}
+
+.about_btn_right {
+  background-color: var(--red) !important;
+  font-size: 1.8rem !important;
+  width: 11vw;
+}
+
+.about_img {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+}
+
+.about_img_left {
+  background-repeat: no-repeat;
+  max-width: 65vh;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.about_img_center {
+  background-repeat: no-repeat;
+  max-width: 65vh;
+  width: 100%;
+  height: auto;
+}
+
+.about_img_right {
+  background-repeat: no-repeat;
+  max-width: 55vh;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.admin_heading {
+  color: var(--yellow);
+  margin-right: 1rem;
+}
+
+.admin_link {
+  color: var(--dark-yellow);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about_admin_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.already_selected_btn {
+  color: var(--red) !important;
+  border-color: var(--red) !important;
+  font-size: 1.1rem;
+}
+
+.wager_btn {
+  background-color: green !important;
+  margin-block: auto !important;
+  font-size: 1rem !important;
+}

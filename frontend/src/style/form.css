@@ -1,0 +1,47 @@
+.textfield {
+    color: var(--yellow) !important;
+    background-color: rgb(33, 36, 41) !important;
+}
+
+.swap_icon_container {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.swap_icon {
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(2);
+    padding: 0.2rem;
+}
+
+.link_btn {
+    color: var(--dark-yellow) !important;
+    font-size: 1.3rem !important;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.form_list_item {
+    margin-block: 5rem;
+}
+
+.address_list_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_header {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+}
+
+.list_item {
+    font-size: 1.2rem;
+    color: white;
+}

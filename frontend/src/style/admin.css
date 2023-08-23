@@ -1,0 +1,103 @@
+.admin_btn_left {
+  background-color: var(--red) !important;
+  font-size: 1.8rem !important;
+  width: 11vw;
+  margin-right: 1rem !important;
+}
+
+.admin_btn_right {
+  background-color: var(--dark-yellow) !important;
+  font-size: 1.8rem !important;
+  width: 11vw;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background-color: var(--dark-yellow) !important;
+}
+
+.stats_card {
+  background-color: black !important;
+  color: var(--dark-yellow) !important;
+  border: 1px solid !important;
+  box-shadow: 0 3px 6px var(--red) !important;
+}
+
+.unselected_stats_card {
+  background-color: black !important;
+  color: var(--dark-yellow) !important;
+  border: 1px solid !important;
+}
+
+.selected_stats_card {
+  box-shadow: 0 5px 6px var(--red) !important;
+  color: var(--red) !important;
+}
+
+.stats_img {
+  width: auto;
+  height: 10rem;
+  margin-right: 1rem;
+}
+
+.stats_container {
+  display: flex;
+  align-items: center;
+}
+
+.stats_heading {
+  color: var(--dark-yellow);
+}
+
+.stats_number {
+  color: var(--red);
+}
+
+.card_btn {
+  background-color: var(--red) !important;
+  font-size: 1rem !important;
+}
+
+.grid_item_stretch_90 {
+  width: 90%;
+  height: 100%;
+}
+
+.grid_item_stretch_95 {
+  width: 95%;
+  height: 100%;
+}
+
+.grid_item_stretch_100 {
+  width: 100%;
+  height: 100%;
+}
+
+.admin_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+}
+
+.row_span_5 {
+  grid-row: span 5;
+}
+
+.column_span_2 {
+  grid-column: span 2;
+}
+
+.contract_container {
+  margin: auto;
+  width: 50%;
+}
+
+.gov_container {
+  margin: auto;
+  width: 25%;
+}
+
+.dispense_btn {
+  background-color: var(--red) !important;
+  font-size: 1.4rem !important;
+  margin: auto;
+}

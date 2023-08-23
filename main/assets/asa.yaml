@@ -1,0 +1,12 @@
+ALGO_USDC:
+  total: "10000000000000000" # 10 billion (to match Algorand, allows 1:1 trading)
+  decimals: 6
+  unitName: "USDC"
+  url: "https://usdc.com"
+  # User may get "signature validation failed" from node if shorter hash is used.
+  metadataHash: "12312442142141241244444411111133"
+  note: "Algo/USDC ASA"
+  manager: ""
+  reserve: ""
+  freeze: ""
+  clawback: ""

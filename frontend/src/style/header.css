@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.header_heading {
+  margin-left: 0.5rem;
+  color: var(--dark-yellow);
+}
+
+.header_img {
+  max-height: 6rem;
+  width: auto;
+}
+
+.header_btn {
+  background-color: var(--red) !important;
+  margin-block: auto !important;
+  font-size: 1rem !important;
+}
+
+.drawer {
+  background-color: var(--red) !important;
+  height: inherit;
+  color: var(--dark-yellow);
+  font-size: 2.5rem;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.drawer_card_item {
+  background-color: var(--dark-yellow) !important;
+  color: white !important;
+  font-size: 1.5rem !important;
+}
+
+.drawer_btn {
+  border: 0.1rem solid var(--dark-yellow) !important;
+  color: var(--dark-yellow) !important;
+  font-size: 1.5rem !important;
+}
+
+.btn_icon {
+  padding: 0.5rem;
+}
+
+.winner_details {
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem;
+}

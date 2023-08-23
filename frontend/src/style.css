@@ -1,0 +1,44 @@
+@import url("./style/about.css");
+@import url("./style/header.css");
+@import url("./style/layout.css");
+@import url("./style/utilities.css");
+@import url("./style/form.css");
+@import url("./style/admin.css");
+@import url("./style/text.css");
+:root {
+  --red: #890f0d;
+  --dark-yellow: #d2c500;
+  --yellow: #fff323;
+  background-color: black;
+  color: whitesmoke;
+  font-family: ui-sans-serif, system-ui, Helvetica Neue, Arial, sans-serif !important;
+}
+
+/* This defines what 1rem is */
+/* 1 rem = 10px; 10px/16px = 62.5% */
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+.PrivateSwitchBase-root span {
+  color: var(--red) !important;
+}
